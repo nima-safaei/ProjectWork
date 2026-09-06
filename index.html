@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="node_modules\vazirmatn\misc\Farsi-Digits\Vazirmatn-FD-font-face.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Vazirmatn FD;
+        }
+
+        body {
+            background-color: rgb(216, 216, 216);
+        }
+        header{
+            margin: 0;
+            padding: 0;
+        }
+        #oA {
+            background-color: rgb(26, 19, 19);
+            color: white;
+            text-align: center;
+            margin: 0;
+            border-radius: 0;
+            width: 100%;
+        }
+
+        main {
+            display: flex;
+        }
+
+        section {
+            margin: 50px;
+            border: solid 1px;
+            border-radius: 13px;
+            flex: 1;
+            padding: 20px;
+        }
+
+        img {
+            border-radius: 13px;
+            width: 100%;
+        }
+
+        span>p {
+            background-color: red;
+            color: whitesmoke;
+            border-radius: 14px;
+            flex-direction: row;
+            position: fixed;
+          
+        }
+
+        h3 {
+            color: green;
+        }
+
+        a {
+            background-color: rgb(57, 103, 230);
+            color: white;
+            text-align: center;
+            border-radius: 4px;
+            display: block;
+            right: 5px;
+            left: 5px;
+            text-decoration: none;
+            padding: 10px;
+            box-shadow: 10px 10px 10px 10px rgb(255, 255, 255);
+        }
+
+        div#basket {
+            position: fixed;
+            bottom: 25px;
+            left: 50px;
+            width: 59px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.8);
+           
+        }
+        
+
+        #basket>p {
+            border-radius: 30px;
+            background-color: red;
+            width: 24px;
+            position:fixed;
+            bottom: 69px;
+            padding: 1px;
+            align-items: center;            
+            color: white;
+            flex-direction:row-reverse;
+            left: 96px;
+            justify-content: center;
+            gap: 3px;
+            display: flex;
+
+
+
+        }
+
+        #font {
+            font-size: 2.1rem;
+            color: rgb(212, 212, 212);
+            align-items: center;
+            text-align: center;
+            display: flex;
+            gap: 3px;
+            flex-direction: row;
+        }
+
+        footer {
+            background-color: rgb(26, 19, 19);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media (max-width: 600px) {}
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"
+        type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop</title>
+</head>
+
+<body>
+    <header>
+        <section id="oA">
+            <h1>فروشگاه من</h1>
+            <p>بهترین محصولات را با بهترین قیمت انتخاب کنید </p>
+        </section>
+    </header>
+    <main>
+        <section>
+            <figure>
+                <span>
+                    <p>۲۰%تخفیف</p>
+                </span>
+                <img src="https://picsum.photos/400/200" alt="Loptob" title="لپتاپ">
+            </figure>
+            <h2>لپتاپ حرفه ای</h2>
+            <p>یک لپتاپ قدرتمند برای برنامه نویسی ,طراحی وب و کارهای روزمره.</p>
+            <h3>۴۵,۰۰۰,۰۰۰تومان </h3>
+            <a href="">خرید محصول</a>
+        </section>
+        <section>
+            <figure>
+                <span>
+                    <p>جدید</p>
+                </span>
+                <img src="https://picsum.photos/400/200?random=1" alt="Phone" title="گوشی">
+            </figure>
+            <h2>گوشی هوشمند</h2>
+            <p>گوشی هوشمند با صفحه نمایش باکیفیت و عملکرد سریع</p>
+            <h3>۲۵,۰۰۰,۰۰۰تومان </h3>
+            <a href="">خرید محصول</a>
+        </section>
+        <section>
+            <figure>
+                <span>
+                    <p>ویژه</p>
+                </span>
+                <img src="https://picsum.photos/400/200?random=2" alt="HeadPhone" title="هدفون">
+            </figure>
+            <h2>هدفون بی سیم</h2>
+            <p>هدفون بی سیم باکیفیت صدای عالی و باطری قدرتمند</p>
+            <h3>۳,۵۰۰,۰۰۰تومان </h3>
+            <a href="">خرید محصول</a>
+        </section>
+    </main>
+    <div id="basket">
+        <p class=".cart">
+            ۳
+        </p>
+        <span id="font">
+            <i class="fa-classic fa-solid fa-cart-shopping"></i>
+        </span>
+    </div>
+
+    <footer>
+        <p>تمامی حقوق محقوظ است.</p>
+    </footer>
+</body>
+
+</html>
